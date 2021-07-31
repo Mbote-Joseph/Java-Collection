@@ -31,3 +31,5 @@ public class RemoveBottomStack<E> extends StackGenericArray<E>{
         return this;
     }
 }
+
+// End of the class
