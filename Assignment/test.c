@@ -50,7 +50,7 @@ void PriceMin_01_57498(int DoorCar_57498[],int YearCar_57498[],int PriceCar_5749
     printf("\t\t\tCar \t ID\tDOOR\tYEAR\tPRICE\n");
     int min= PriceCar_57498[0];
     for(int i=0; i<4; i++){
-        if(PriceCar_57498[i]<=min){
+        if(PriceCar_57498[i]< min){
             min=PriceCar_57498[i];
             printf(" \t\t\tCar \t %d \t %d \t %d \t %d\n", i, DoorCar_57498[i], YearCar_57498[i], PriceCar_57498[i]);
         }
