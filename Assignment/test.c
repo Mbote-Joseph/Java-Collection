@@ -216,4 +216,10 @@ int main(void){
 
     
     
-}
+}//Insert -1 for the remaining values
+    // int finalSize = i;
+    // for( i=0; i < SIZE; i++){
+    //     DoorCar_57498[i] = -1;
+    //     YearCar_57498[i] = -1;
+    //     PriceCar_57498[i] = -1;
+    // }
